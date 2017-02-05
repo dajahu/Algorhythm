@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		ED89A2A41B0B5E230019B54F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89A2A31B0B5E230019B54F /* AppDelegate.swift */; };
-		ED89A2A61B0B5E230019B54F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89A2A51B0B5E230019B54F /* ViewController.swift */; };
+		ED89A2A61B0B5E230019B54F /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89A2A51B0B5E230019B54F /* PlaylistMasterViewController.swift */; };
 		ED89A2A91B0B5E230019B54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED89A2A71B0B5E230019B54F /* Main.storyboard */; };
 		ED89A2AB1B0B5E230019B54F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED89A2AA1B0B5E230019B54F /* Images.xcassets */; };
 		ED89A2AE1B0B5E230019B54F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED89A2AC1B0B5E230019B54F /* LaunchScreen.xib */; };
 		ED89A2BA1B0B5E230019B54F /* AlgorhythmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89A2B91B0B5E230019B54F /* AlgorhythmTests.swift */; };
+		ED89A2C41B0B91860019B54F /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89A2C31B0B91860019B54F /* PlaylistDetailViewController.swift */; };
+		EDE0019B1B0BD5EC005C3646 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0019A1B0BD5EC005C3646 /* MusicLibrary.swift */; };
+		EDE0019D1B0BD6E1005C3646 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0019C1B0BD6E1005C3646 /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		ED89A29E1B0B5E230019B54F /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED89A2A21B0B5E230019B54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED89A2A31B0B5E230019B54F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED89A2A51B0B5E230019B54F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED89A2A51B0B5E230019B54F /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
 		ED89A2A81B0B5E230019B54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED89A2AA1B0B5E230019B54F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ED89A2AD1B0B5E230019B54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ED89A2B31B0B5E230019B54F /* AlgorhythmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorhythmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED89A2B81B0B5E230019B54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED89A2B91B0B5E230019B54F /* AlgorhythmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorhythmTests.swift; sourceTree = "<group>"; };
+		ED89A2C31B0B91860019B54F /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		EDE0019A1B0BD5EC005C3646 /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		EDE0019C1B0BD6E1005C3646 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				ED89A2A31B0B5E230019B54F /* AppDelegate.swift */,
-				ED89A2A51B0B5E230019B54F /* ViewController.swift */,
+				EDE0019C1B0BD6E1005C3646 /* Playlist.swift */,
+				EDE0019A1B0BD5EC005C3646 /* MusicLibrary.swift */,
+				ED89A2A51B0B5E230019B54F /* PlaylistMasterViewController.swift */,
+				ED89A2C31B0B91860019B54F /* PlaylistDetailViewController.swift */,
 				ED89A2A71B0B5E230019B54F /* Main.storyboard */,
 				ED89A2AA1B0B5E230019B54F /* Images.xcassets */,
 				ED89A2AC1B0B5E230019B54F /* LaunchScreen.xib */,
@@ -156,6 +165,8 @@
 		ED89A2961B0B5E230019B54F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = davloop;
 				TargetAttributes = {
@@ -212,8 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED89A2A61B0B5E230019B54F /* ViewController.swift in Sources */,
+				ED89A2C41B0B91860019B54F /* PlaylistDetailViewController.swift in Sources */,
+				ED89A2A61B0B5E230019B54F /* PlaylistMasterViewController.swift in Sources */,
 				ED89A2A41B0B5E230019B54F /* AppDelegate.swift in Sources */,
+				EDE0019B1B0BD5EC005C3646 /* MusicLibrary.swift in Sources */,
+				EDE0019D1B0BD6E1005C3646 /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +423,7 @@
 				ED89A2BF1B0B5E230019B54F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED89A2C01B0B5E230019B54F /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +432,7 @@
 				ED89A2C21B0B5E230019B54F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
